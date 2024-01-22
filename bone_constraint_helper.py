@@ -48,9 +48,9 @@ class BoneConstraintPositionFreeMenu(bpy.types.Menu):
         layout.operator(BoneConstraintHelper.bl_idname, text="X").axis = "X"
         layout.operator(BoneConstraintHelper.bl_idname, text="Y").axis = "Y"
         layout.operator(BoneConstraintHelper.bl_idname, text="Z").axis = "Z"
-        layout.operator(BoneConstraintHelper.bl_idname, text="XY").axis = "XY "
-        layout.operator(BoneConstraintHelper.bl_idname, text="XZ").axis = "X Z"
-        layout.operator(BoneConstraintHelper.bl_idname, text="YZ").axis = " YZ"
+        layout.operator(BoneConstraintHelper.bl_idname, text="XY").axis = "XY"
+        layout.operator(BoneConstraintHelper.bl_idname, text="XZ").axis = "XZ"
+        layout.operator(BoneConstraintHelper.bl_idname, text="YZ").axis = "YZ"
         layout.operator(BoneConstraintHelper.bl_idname, text="XYZ").axis = "XYZ"
 
 class BoneConstraintPositionFixedMenu(bpy.types.Menu):
